@@ -1,3 +1,10 @@
 <h1>My Schedule</h1>
 <%= link_to "運用日申請", '#', class: "btn btn-lg btn-info" %>
+<script>
+$(document).ready(function () {
+    $('#calendar').fullCalendar({
+        weekMode: 'fixed'
+    });
+});
+</script>
 <div id='calendar'></div>
