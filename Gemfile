@@ -67,3 +67,6 @@ gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 gem 'jquery-rails'
 gem 'therubyracer',  platforms: :ruby
+#activeadmin
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
