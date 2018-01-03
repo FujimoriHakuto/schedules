@@ -10,6 +10,16 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery
+//= require bootstrap
 //= require rails-ujs
 //= require turbolinks
+//= require moment
+//= require fullcalendar
 //= require_tree .
+
+$(document).ready(function () {
+    $('#calendar').fullCalendar({
+        weekMode: 'fixed'
+    });
+});

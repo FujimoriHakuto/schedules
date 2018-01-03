@@ -58,3 +58,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap-sass', '3.3.7'
 #login
 gem 'devise'
+#fullcalender
+gem 'fullcalendar-rails'
+gem 'momentjs-rails'
+gem 'jquery-rails'
+gem 'therubyracer',  platforms: :ruby
