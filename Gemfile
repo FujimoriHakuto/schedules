@@ -54,4 +54,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #User Add
+#Bootstrap
 gem 'bootstrap-sass', '3.3.7'
+#login
+gem 'devise'
