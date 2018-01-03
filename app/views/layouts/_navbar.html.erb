@@ -1,0 +1,16 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "FUTABA SYSTEM", root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home",   root_path %></li>
+        <% if sample_signed_in? %>
+          <li><%= link_to "Sign out", destroy_sample_session_path, :method => :delete %></li>
+        <% else %>
+          <li><%= link_to "Sign up", new_sample_registration_path %></li>
+          <li><%= link_to "Sign in", new_sample_session_path %></li>
+        <% end %>
+      </ul>
+    </nav>
+  </div>
+</header>
