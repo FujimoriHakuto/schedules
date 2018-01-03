@@ -7,6 +7,10 @@
     <%= render 'layouts/navbar' %>
     <div class="container">
       <%= render 'layouts/message' %>
+      <% if sample_signed_in? %>
+        <h1>ようこそ</h1>
+        
+      <% end %>
       <%= yield %>
     </div>
   </body>
